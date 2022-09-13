@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags -->
+    <meta name="description" content="Video background website">
+    <!-- link to fontawesome kit -->
+    <script src="https://kit.fontawesome.com/18a9621562.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Video Background</title>
+</head>
+
+<body>
+    <!-- section#main will render: -->
+    <section id="main">
+        <!-- #video-container will render: -->
+        <div id="video-container">
+            <!-- video src finds the video -->
+            <video src="media/html.mp4" autoplay loop muted></video>
+            <!-- autoplay starts the video. loop replays the video forever. muted removes any sound from the video. -->
+        </div>
+        <!-- #cover renders div id="cover" -->
+        <!-- this div will cover/darken video later -->
+        <div id="cover"></div>
+        <!-- #content renders div id="content" -->
+        <div id="content">
+            <h1>Cheyenne Hohman</h1>
+            <h2>Web Developer</h2>
+
+            <a href="#about" id="click">About</a>
+        </div>
+    </section>
+
+    <!-- section#about renders -->
+    <section id="about">
+        <h1>About</h1>
+        <p>Currently enrolled in the Commonwealth Coders Web Development Program. </p>
+        <h2>Follow me on social media:</h2>
+        <div>
+            <a href="https://twitter.com/cheyennehohman" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/cheyennehohman/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/CheyenneHohman" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+
+            <a href="https://www.goodreads.com/user/show/9096995-cheyenne" target="_blank"><i class="fa-brands fa-goodreads"></i></a>
+        </div>
+    </section>
+
+</body>
+</html>
